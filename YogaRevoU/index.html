@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Kalkulator Segitiga</title>
+<script src="js/script.js"></script>
+<link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+<div class="container">
+  <h1>Kalkulator Segitiga</h1>
+  <div class="segitiga-image">
+    <img src="asset/segitiga sama sisi.png">
+    <p class="rumusLuasSegitiga">Rumus Luas Segitiga yaitu:
+        <br>L = 1/2 x a x t </p>
+    <br>
+  </div>
+  <!-- Luas -->
+  <div class="luasSegitiga">
+    <label for="base">Panjang Alas:</label>
+    <input type="number" placeholder="Nilai Alas" id="base">
+  </div>
+  <div class="luasSegitiga">
+    <label for="height">Tinggi:</label>
+    <input type="number" placeholder="Nilai Tinggi" id="height">
+  </div>
+  <button id="luasButton">Hitung Luas</button>
+  <div class="result">
+    <p>Hasil Luas: <span id="hasilLuas"></span></p>
+  </div>
+  <!-- Keliling -->
+  <br>
+  <p class="rumusKelSegitiga">Rumus Keliling Segitiga yaitu:
+    <br>Keliling = Sisi A + Sisi B + Sisi C
+    <br>
+  <div class="kelSegitiga">
+    <label for="sisiA">Sisi A:</label>
+    <input type="number" placeholder="Nilai Sisi A" id="sisiA">
+  </div>
+  <div class="kelSegitiga">
+    <label for="sisiB">Sisi B:</label>
+    <input type="number" placeholder="Nilai Sisi B" id="sisiB">
+  </div>
+  <div class="kelSegitiga">
+    <label for="sisiC">Sisi C:</label>
+    <input type="number" placeholder="Nilai Sisi C" id="sisiC">
+  </div>
+  <button id="kelilingButton">Hitung Keliling</button>
+  <div class="result">
+    <p>Hasil Keliling: <span id="hasilKeliling"></span></p>
+  </div>
+</div>
+</body>
+</html>
